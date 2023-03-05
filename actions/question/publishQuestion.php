@@ -1,10 +1,10 @@
 <?php
 require('actions/database.php');
   if(isset($_POST['validate'])){
-    if(!empty($_POST['title']) AND !empty($_POST['description']) AND !empty($_POST['content'])){
+    if(!empty($_POST['title']) AND !empty($_POST['content'])){
 
       $questionT = htmlspecialchars($_POST['title']);
-      $question_description = nl2br(htmlspecialchars($_POST['description']));
+      $question_description = "--Question__type ";
       $questionC = nl2br(htmlspecialchars($_POST['content']));
       $question_date = date('d/M/Y');
       $question_id_author = $_SESSION['matricule'];

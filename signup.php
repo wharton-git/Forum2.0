@@ -4,7 +4,12 @@
 <head>
   <link href="assets/log.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  
+  <link rel="stylesheet" media="screen" href="./assets/css/bundle.min.css"/>
+    <link rel="stylesheet" media="screen" href="./assets/css/aos.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="./assets/css/theme.min.css">
   <title>Sign in</title>
 </head>
 

@@ -4,6 +4,11 @@
 
 <head>
   <link rel="stylesheet" href="assets/log.css">
+  
+  <link rel="stylesheet" media="screen" href="./assets/css/bundle.min.css"/>
+    <link rel="stylesheet" media="screen" href="./assets/css/aos.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="./assets/css/theme.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sign in</title>
 </head>

@@ -7,7 +7,12 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    
+<link rel="stylesheet" media="screen" href="./assets/css/bundle.min.css"/>
+    <link rel="stylesheet" media="screen" href="./assets/css/aos.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="./assets/css/theme.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css"> -->
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <body>
     <?php 

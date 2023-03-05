@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css"> -->
+    
+    <link rel="stylesheet" media="screen" href="./assets/css/bundle.min.css"/>
+    <link rel="stylesheet" media="screen" href="./assets/css/aos.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="./assets/css/theme.min.css">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 </head>
 <?php include 'actions/question/myQuestionsAction.php';?>
@@ -11,6 +16,11 @@
     include 'includes/navbar.php';?>
 
     <br><br>
+    <br><br>
+    <br><br>
+    <div class="p-4"></div>    <br><br>
+    <br><br>
+    <div class="p-4"></div>
     <div class="container ">
         <?php while($question = $getAllMyQuestions->fetch()){ ?>
             <div class="card mb-3">
